@@ -7,6 +7,7 @@ resources:
 - profile-instance.yaml
 configMapGenerator:
 - name: default-install-config
+  namespace: ftech-ai
   envs:
   - params.env
 vars:
