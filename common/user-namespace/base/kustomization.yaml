@@ -16,6 +16,7 @@ vars:
   objref:
     kind: ConfigMap
     name: default-install-config
+    namespace: ftech-ai
     apiVersion: v1
   fieldref:
     fieldpath: data.user
@@ -23,6 +24,7 @@ vars:
   objref:
     kind: ConfigMap
     name: default-install-config
+    namespace: ftech-ai
     apiVersion: v1
   fieldref:
     fieldpath: data.profile-name
