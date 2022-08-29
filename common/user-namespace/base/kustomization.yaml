@@ -6,7 +6,7 @@ resources:
 - profile-instance.yaml
 configMapGenerator:
 - name: default-install-config
-  namespace: ftech-ai
+#   namespace: ftech-ai
   envs:
   - params.env
 vars:
@@ -16,7 +16,7 @@ vars:
   objref:
     kind: ConfigMap
     name: default-install-config
-    namespace: ftech-ai
+#     namespace: ftech-ai
     apiVersion: v1
   fieldref:
     fieldpath: data.user
@@ -24,7 +24,7 @@ vars:
   objref:
     kind: ConfigMap
     name: default-install-config
-    namespace: ftech-ai
+#     namespace: ftech-ai
     apiVersion: v1
   fieldref:
     fieldpath: data.profile-name
