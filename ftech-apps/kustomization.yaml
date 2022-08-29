@@ -48,7 +48,7 @@ resources:
 # Training Operator
 - ../apps/training-operator/upstream/overlays/kubeflow
 # User namespace
-- ../common/user-namespace/base
+# - ../common/user-namespace/base
 
 # KServe
 - ../contrib/kserve/kserve
