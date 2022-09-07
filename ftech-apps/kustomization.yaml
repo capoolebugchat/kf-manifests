@@ -40,7 +40,7 @@ resources:
 # Profiles + KFAM
 - ../apps/profiles/upstream/overlays/kubeflow
 # Volumes Web App
-- ../apps/volumes-web-app/upstream/overlays/istio
+# - ../apps/volumes-web-app/upstream/overlays/istio
 # Tensorboards Controller
 # -  ../apps/tensorboard/tensorboard-controller/upstream/overlays/kubeflow
 # Tensorboard Web App
@@ -51,5 +51,5 @@ resources:
 # - ../common/user-namespace/base
 
 # KServe
-- ../contrib/kserve/kserve
-- ../contrib/kserve/models-web-app/overlays/kubeflow
+# - ../contrib/kserve/kserve
+# - ../contrib/kserve/models-web-app/overlays/kubeflow
