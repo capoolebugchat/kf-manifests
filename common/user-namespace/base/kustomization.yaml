@@ -2,7 +2,7 @@
 # bootstrap a profile for the user running kfctl.
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-#resources:
+resources:
 - profile-instance.yaml
 configMapGenerator:
 - name: default-install-config
