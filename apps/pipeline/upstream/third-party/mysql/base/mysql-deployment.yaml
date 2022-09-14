@@ -24,8 +24,14 @@ spec:
         - --datadir
         - /var/lib/mysql
         env:
-        - name: MYSQL_ROOT_PASSWORD
-          value: "root"
+        - name: MYSQL_ALLOW_EMPTY_PASSWORD
+          value: "true"
+        - name: MYSQL_USER
+          value: "mlflow"
+        - name: MYSQL_PASSWORD
+          value: "mlflow"
+        - name: MYSQL_DATABASE
+          value: "mlflowdb"
         image: gcr.io/ml-pipeline/mysql:5.7-debian
         name: mysql
         ports:
