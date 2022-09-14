@@ -24,8 +24,8 @@ spec:
         - --datadir
         - /var/lib/mysql
         env:
-        - name: MYSQL_ALLOW_EMPTY_PASSWORD
-          value: "true"
+        - name: MYSQL_ROOT_PASSWORD
+          value: "root"
         image: gcr.io/ml-pipeline/mysql:5.7-debian
         name: mysql
         ports:
