@@ -7,36 +7,6 @@ data:
   links: |-
     {
       "menuLinks": [
-#         {
-#           "type": "item",
-#           "link": "/jupyter/",
-#           "text": "Notebooks",
-#           "icon": "book"
-#         },
-#         {
-#           "type": "item",
-#           "link": "/tensorboards/",
-#           "text": "Tensorboards",
-#           "icon": "assessment"
-#         },
-#         {
-#           "type": "item",
-#           "link": "/volumes/",
-#           "text": "Volumes",
-#           "icon": "device:storage"
-#         },
-#         {
-#           "type": "item",
-#           "link": "/kserve-endpoints/",
-#           "text": "Models",
-#           "icon": "kubeflow:models"
-#         },
-#         {
-#           "type": "item",
-#           "link": "/katib/",
-#           "text": "Experiments (AutoML)",
-#           "icon": "kubeflow:katib"
-#         },
         {
           "type": "item",
           "text": "Experiments (KFP)",
@@ -139,3 +109,34 @@ data:
 kind: ConfigMap
 metadata:
   name: centraldashboard-config
+  
+#         {
+#           "type": "item",
+#           "link": "/jupyter/",
+#           "text": "Notebooks",
+#           "icon": "book"
+#         },
+#         {
+#           "type": "item",
+#           "link": "/tensorboards/",
+#           "text": "Tensorboards",
+#           "icon": "assessment"
+#         },
+#         {
+#           "type": "item",
+#           "link": "/volumes/",
+#           "text": "Volumes",
+#           "icon": "device:storage"
+#         },
+#         {
+#           "type": "item",
+#           "link": "/kserve-endpoints/",
+#           "text": "Models",
+#           "icon": "kubeflow:models"
+#         },
+#         {
+#           "type": "item",
+#           "link": "/katib/",
+#           "text": "Experiments (AutoML)",
+#           "icon": "kubeflow:katib"
+#         },
