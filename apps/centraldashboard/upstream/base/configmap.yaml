@@ -15,12 +15,6 @@ data:
         },        
         {
           "type": "item",
-          "link": "/mlflow/",
-          "text": "MlFlow",
-          "icon": "icons:track-changes"
-        },
-        {
-          "type": "item",
           "link": "/tensorboards/",
           "text": "Tensorboards",
           "icon": "assessment"
