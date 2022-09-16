@@ -63,6 +63,12 @@ data:
         },
         {
           "type": "item",
+          "link": "/mlflow/",
+          "text": "MlFlow",
+          "icon": "icons:track-changes"
+        },
+        {
+          "type": "item",
           "link": "/pipeline/#/artifacts",
           "text": "Artifacts",
           "icon": "editor:bubble-chart"
