@@ -12,6 +12,12 @@ data:
           "link": "/jupyter/",
           "text": "Notebooks",
           "icon": "book"
+        },        
+        {
+          "type": "item",
+          "link": "/mlflow/",
+          "text": "MlFlow",
+          "icon": "icons:track-changes"
         },
         {
           "type": "item",
