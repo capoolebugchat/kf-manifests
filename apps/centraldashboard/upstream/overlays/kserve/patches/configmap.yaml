@@ -1,6 +1,16 @@
 apiVersion: v1
 data:
-  settings: |-
+  settings: |-#           {
+#             "text": "Create a new Notebook server",
+#             "desc": "Notebook Servers",
+#             "link": "/jupyter/new?namespace=kubeflow"
+#           },
+#           {
+#             "text": "View Katib Experiments",
+#             "desc": "Katib",
+#             "link": "/katib/"
+#           }
+
     {
       "DASHBOARD_FORCE_IFRAME": true
     }
@@ -62,16 +72,6 @@ data:
             "desc": "Pipelines",
             "link": "/pipeline/#/runs"
           }
-#           {
-#             "text": "Create a new Notebook server",
-#             "desc": "Notebook Servers",
-#             "link": "/jupyter/new?namespace=kubeflow"
-#           },
-#           {
-#             "text": "View Katib Experiments",
-#             "desc": "Katib",
-#             "link": "/katib/"
-#           }
         ],
         "documentationItems": [
           {
@@ -140,3 +140,15 @@ metadata:
 #           "text": "Experiments (AutoML)",
 #           "icon": "kubeflow:katib"
 #         },
+
+
+#           {
+#             "text": "Create a new Notebook server",
+#             "desc": "Notebook Servers",
+#             "link": "/jupyter/new?namespace=kubeflow"
+#           },
+#           {
+#             "text": "View Katib Experiments",
+#             "desc": "Katib",
+#             "link": "/katib/"
+#           }
