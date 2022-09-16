@@ -15,7 +15,7 @@ data:
         },        
         {
           "type": "item",
-          "link": "/_/mlflow/",
+          "link": "/mlflow/",
           "text": "MlFlow",
           "icon": "icons:track-changes"
         },
