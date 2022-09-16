@@ -61,7 +61,7 @@ data:
             "text": "View all pipeline runs",
             "desc": "Pipelines",
             "link": "/pipeline/#/runs"
-          },
+          }
 #           {
 #             "text": "Create a new Notebook server",
 #             "desc": "Notebook Servers",
