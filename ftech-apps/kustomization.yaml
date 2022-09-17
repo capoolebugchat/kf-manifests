@@ -50,6 +50,11 @@ resources:
 # User namespace
 # - ../common/user-namespace/base
 
+# Deployment solution options
+
 # KServe
 # - ../contrib/kserve/kserve
 # - ../contrib/kserve/models-web-app/overlays/kubeflow
+
+# Seldon Core
+- ../contrib/seldon/seldon-core-operator/base
