@@ -54,7 +54,7 @@ data:
           "link": "/lakefs/",
           "text": "LakeFS",
           "icon": "hardware:power-input"
-        },
+        }
       ],
       "externalLinks": [ ],
         "quickLinks": [
